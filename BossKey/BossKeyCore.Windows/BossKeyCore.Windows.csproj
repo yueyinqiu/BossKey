@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapplo.Windows.User32" Version="1.0.28" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BossKeyCore\BossKeyCore.csproj" />
+  </ItemGroup>
+
+</Project>
